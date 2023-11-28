@@ -1,10 +1,11 @@
 """
 Operators are used for performing Mathematical Operations as well as for Comparison between different variables.
-            We have three main types of Operators
+            We have four main types of Operators
 
-    Arithmetic Operations:      +, -, *, /, %, **, //(only give Integer part).
-    Logical Operation:         and, not, or. (returns Boolean).
-    Relational Operations:     >, <, !=, ==, <=, >=, <<, >>. (returns Boolean).
+    - Arithmetic Operations:      +, -, *, /, %, **, //(only give Integer part).
+    - Logical Operation:         and, not, or. (returns Boolean).
+    - Relational Operations:     >, <, !=, ==, <=, >=, <<, >>. (returns Boolean).
+    - Mapping Operations:        'has' in 'hassan', not in.
 
 Arithmatic Operators are used for computations of variables or constants.
     BDMAS rule is follow for solving Equation: So precedence is as follows:

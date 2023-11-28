@@ -25,7 +25,7 @@ print(name[0])  # give 'H'
 print(len(name))  # give length of String
 print(name + " " + "Mahmood")  # Combine Both and Print
 
-print("Has" in name)  # returns Boolean value after checking substring 'Has' in String as Strings are Arrays.
+print("Has" in name)  # returns Boolean value after checking substring 'Has' in String as Strings are Arrays.   (Mapping Operator)
 
 # Escape Characters :: As see earlier.
 print("my name is \"Hassan Mahmood\"")
