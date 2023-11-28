@@ -14,7 +14,7 @@ we will see
     - String Manipulation Operations
 
 
-Note: By default, input gives take string from user. To take Number, float, boolean we need TypeCasting
+Note: By default, input return  string from user. To take Number, float, boolean we need TypeCasting
 
 """
 

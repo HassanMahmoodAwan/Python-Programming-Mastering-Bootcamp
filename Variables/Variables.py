@@ -2,21 +2,25 @@
 Variables are use for Storing data for use in Program.
 
 Variables are of Many types:
-    Numeric: Decimal Numbers.
-    Floats: Numbers with Decimal Part.
-    Strings: Any Sentence or Words it can Also contain 0-9 but this represents as sentence.
-    Boolean: Which are True or False.
+    - Numeric: Numbers without Decimal Part..
+    - Floats:  Numbers with Decimal Part.
+    - Strings: Any Sentence or Words it can Also contain 0-9 but this     represents as sentence.
+    - Boolean: Which are True or False.
 
 Variables name Starts from Character and can have Numbers 0-9, _ , Characters.
 
-Note: Use Camel Case for Variables (Preferred)
+Note: 
+1- Use Camel Case for Variables (Preferred),
+2- Lower Case for Function(), 
+3- Upper Camel Case for Class(), 
+4- Upper Case for constant
 
 
-More we will learn Escape Characters
+More we will learn Escape Characters  " \'vikings\' "
 """
 
-name = 'Hassan'  # String
-age = 20  # Int
+name: str = 'Hassan'  # String    # Specifing DataType as well.
+age: int = 20  # Int
 cgpa = 2.71  # Float
 student = True  # Boolean
 
@@ -44,7 +48,8 @@ print(f'{name}\t{cgpa}')  # One tab space \t
 
 
 # Other Way of declaring Variables
-name = "Hassan"; no1, no2, no3 = 10, 12, 8; numOne = numTwo = 22
+name = "Hassan"; no1, no2, no3 = 10, 12, 8
+numOne = numTwo = 22    # create shallow copy. changing one effects other.
 print(name, no3, numTwo, type(numTwo))  # Type print int.
 
 # Type Casting

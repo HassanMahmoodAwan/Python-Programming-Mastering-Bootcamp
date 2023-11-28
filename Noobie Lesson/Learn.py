@@ -2,7 +2,7 @@
 
 """
 Multiline Comment as it is String,
-   if we do not assign it to any variable it, Python ignore it.
+   if we do not assign it to any variable, Python ignore it.
 """
 
 """
