@@ -43,4 +43,8 @@ To deactivate venv: <br />
 
 ## Certifications in Python:
 
+
+### Python for Data Science, Ai and Development
+Completed form IBM offered by Coursera.
+
 ![Python DS, AI AND development_page-0001](https://github.com/HassanMahmoodAwan/Python-Programming-Mastering-Bootcamp/assets/125195617/8b1f8231-9ad5-4b85-9e24-e27ac7851b49)
