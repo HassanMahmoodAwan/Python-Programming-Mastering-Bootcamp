@@ -5,7 +5,8 @@ There are build-in 4 Data Structures in Python
     3- Tuple
     4- Sets
 
-List are Ordered, Mutable Collection. Duplicate are allowed. All data types are allowed.
+List: 
+    List are Ordered, Mutable Collection. Duplicate are allowed. All data types are allowed.
 
 
 Python Lists are just like dynamically sized arrays, declared in other languages (vector in C++ and ArrayList in Java). (geeksforgeeks)
@@ -19,24 +20,27 @@ I learned that list are like LinkedList and Numpy_array is an actual array
 
 def list_basic():
 
-    # creating a list using its constructor.
+    #  ==== using Constructor. =====
     fruits = list(("Apple", "Banana", "Orange"))
-    print(fruits)
-    print(fruits[1])
-    # Normal way of creating.
+    print(fruits, fruits[1])
+
+    # ===== Normal way =====
     vegetable = ["onion", "tomato", "potato", "garlic"]
-    print(vegetable)
+    print(len(vegetable), type(vegetable))
 
-    print(len(fruits), type(vegetable))
-
+    # ==== Mapping Operator ====
     if "Apple" in fruits:
         print("yes its in the list")
     else:
         print("its not in the list")
 
-    # Checking Mutability of list
-    fruits[2] = 'peach'   # Deep Copy
+
+    # ==== Mutability of list =====
+    fruits[2] = 'peach'   # change orignal.
+    fruits[1:2] = ['Apricot', 'Stawbery']
     print(fruits)
+
+
 
 
 def list_slicing(vegetable=None):
@@ -51,6 +55,13 @@ def list_slicing(vegetable=None):
     print(vegetable[-10:-1])
     print(vegetable[:-1])
 
+    # ==== Practice Question ===== : wanted to prind  all ato.
+    count = 0
+    for element in vegetable:
+        if element[-3:] == 'ato':
+            count += 1
+    print(count)
+
 
 def two_d_list(list_2d=None):
     if list_2d is None:
@@ -60,38 +71,60 @@ def two_d_list(list_2d=None):
     print(list_2d[0][0])
 
 
-def list_advance_operations(list_2d=None):
-    # Inserting into List
 
+
+def list_advance_operations(list_2d=None):
     if list_2d is None:
         list_2d = [['Geeks', 'For'], ['Geeks']]
-    # if index more than the existed one then putted it on last.
+    
+
+    # ===== Inserting =====
+    # if index more than existed, then putted it on last.
     list_2d.insert(3,'Hello Geeks for Geeks')
-    # inserting multiple values in one index
+    # Note: Can Insert one val Using Insert.
     list_2d.insert(1, [10, 15])
 
-    # Appending into List (means putting at last)
-    list_2d.append(21)
-    print(list_2d)
 
-    # Reversing a List
+    # ===== Apending =====
+    list_2d.append(21); print(list_2d)
+
+
+    # ===== Extending List ======
+    list_2d.extend([2,3,5]); print(list_2d)
+
+
+    # ===== Remove and Pop ======
+    list_2d.remove(3)
+    list_2d.pop(1)
+    list_2d.pop()
+
+    # ===== Del and Clear =====
+    # del list_2d
+    # clear(list_2d)          
+
+    # ===== Reversing a List =====
     reversed_list = list_2d.reverse()  # returning None, why?
-    print(reversed_list, list_2d)
+    print(reversed_list, list_2d )     # list_2d Reversed.
 
-    revers = reversed(list_2d)  # returns Iterator, so convert it to list
+    revers = reversed(list_2d)  # returns Iterator,convert to list
     print(list(revers))
 
-    # Using Slicing, reversing a List
-    reverse_list = reversed_list[::-1]
+    # Reversing List using Slicing
+    reverse_list = list(revers)[::-1]
     print(reverse_list)
 
 
+
 def list_comprehension():
-    # list comprehension take less time than traditional way.
+    # Note: list comprehension take less time than traditional way.
 
     numList = [num**2 for num in range(10)]
     evenList = [num**2 for num in range(20) if num%2 == 0]
     print(evenList, numList)
+
+    # ==== Practice Question ====
+    List = list((10, 12, 4, 6, 2))
+    List = [element**2 for element in List]; print(List)
 
     # Matrix creation using Comprehension  (2_D)
     matrix = [[j for j in range(4)] for i in range(3)]
@@ -99,7 +132,7 @@ def list_comprehension():
 
 
 if __name__ == '__main__':
-    # list_basic()
+    list_basic()
     # list_slicing()
-    list_advance_operations()
+    # list_advance_operations()
     # list_comprehension()

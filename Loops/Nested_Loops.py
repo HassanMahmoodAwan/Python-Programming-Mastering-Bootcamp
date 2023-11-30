@@ -4,4 +4,4 @@ for i in range(1, 5):
     print() 
 
 
-# Guess the Output.   (Hint: Parmid)
+# Guess the Output.   (Hint: Paramid)
