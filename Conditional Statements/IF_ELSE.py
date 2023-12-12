@@ -21,7 +21,7 @@ totalObtainedMarks = mathMarks + programmingMarks + web_developmentMarks + machi
 averageMarks = totalObtainedMarks / 4
 
 
-CGPA = 'Not Assign'
+CGPA: str = 'Not Assign'
 
 if averageMarks > 100:
     print('Invalid Input Given')

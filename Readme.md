@@ -68,7 +68,7 @@ Python Buildin important Libraries Include
 ### Python Virtual Envirnment
 For this Repo creating a Virtual Envirnment venv, as Its dependencies and Pacakages will be independent of global libraries. <br />
 >  - python -m venv venv_name <br />
-> - venv_name/Scripts/activate <br />
+>  - venv_name/Scripts/activate <br />
 
 To deactivate venv: <br />
 > - deactivate

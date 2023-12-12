@@ -25,7 +25,7 @@ averageMarks = totalObtainedMarks / 4
 CGPA = 'Not Assign'
 
 match averageMarks:
-    case 90:
+    case range(90, 101, 1):            # Not working
         print('4.0')
     case 20:
         print('fail')
