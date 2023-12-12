@@ -1,6 +1,41 @@
 # Lets Master the Python Completely.
 
-- Its Initial Part of 400 days Coding Challenge.
+- Its Initial Part of 500 days Coding Challenge.
+
+## 500 days Coding Bootcamp technology Stack:
+01. Python
+02. Object Oriented Programing.
+03. Pandas, Numpy, Matplotlib and Seaborn.
+04. Data Processing & Analysis.
+05. Data Structures & Algorithms.
+06. Backend Development using Flask.
+07. Backend Development using FAST API.
+08. REST API development.
+09. HTML, CSS, Boostrap and DOM manipulation using Javascript.
+10. Jquery & AJAX.
+11. Node JS and Aysnc Programing.
+12. React JS. 
+13. React with Redux.
+14. Docker & Kubernetes for Containerization.
+15. Mastering Backend Development with Django framework.
+16. Deployment using AWS and heroku.
+17. Full stack Projects.
+18. Machine Learning.
+19. Andrew Ng specialization in Machine Learning.
+20. Deep Learning with Keras and Tensorflow.
+21. Convolution Neural Network, also with transfer learning (ResNet 101).
+22. Specialization in Deeplearning from Deeplearning.AI.
+23. Computer Vision and Image Processing.
+24. Natural Language Processing (NLP).
+25. Developing AI project with web Application.
+26. ====== Mastering Frontend Technologies further ===========
+27. Learning TypeScript
+28. Mastering Next JS
+29. ===== Learning Cloud Technologies AWS =========
+30. AWS cloud Essiential certification
+31. CI / CD
+32. 70+ Professional Projects using Full stack development and AI. 
+
 
 ### Python:
 - Python is a High Level Language which provided both Functional and Object Oriented Approach.
