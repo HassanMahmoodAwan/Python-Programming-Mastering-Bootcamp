@@ -50,3 +50,5 @@ with open('./data.txt', 'r') as file:
     for line in data:
         print(line.split())
 
+
+
