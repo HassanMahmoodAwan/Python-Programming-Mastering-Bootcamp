@@ -52,3 +52,7 @@ with open('./data.txt', 'r') as file:
 
 
 
+# ==== READ Char from txt file ==== #
+with open('./data.txt', 'r') as file:
+    print(file.read(10))
+    
