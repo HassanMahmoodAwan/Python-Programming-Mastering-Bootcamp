@@ -20,7 +20,7 @@ Note: File handling in Python is slower than other programming languages, especi
 # ==== Open file and Read ===== #
 try:
     file = open('./data.txt', 'r')
-except FILE_NOT_FOUND:                  # Not working
+except IOError:                 
     print('File not Exsist')
 
 for line in file:                       # It read each line.
