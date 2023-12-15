@@ -1,5 +1,6 @@
 """
 - OS -> interacting with operating system. 
+
 """
 
 import os
@@ -26,7 +27,15 @@ print('========= new folder created =======')
 
 # ====== Remove FIlE using OS ======= #
 try:
-    path = os.path.join(path, 'removingfile.txt')
-    os.remove(path)
+    file_path = os.path.join(path, 'removingfile.txt')
+    os.remove(file_path)
 except OSError:
     print('File not exist')
+
+
+# ====== Remove Dir using OS ======= #
+try:
+    dir_path = os.path.join(path, 'os_folder')
+    os.rmdir(dir_path)
+except OSError:
+    print('Folder not Exist')
