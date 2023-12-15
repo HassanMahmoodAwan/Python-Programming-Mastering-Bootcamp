@@ -8,3 +8,10 @@ file.close()
 with open('./data.txt', 'w') as file:
     file.write('Again Overide file content')
     file.close()
+
+
+
+# ==== APEND in file ===== #
+with open('./data.txt', 'a') as file:
+    file.write('Appending at END')
+    file.close()
