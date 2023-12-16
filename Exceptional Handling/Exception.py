@@ -5,6 +5,13 @@
 
 Exception occur when Internal even stop flow of program.
 
+Why Exception Handling:
+    - Improved program reliability
+    - Cleaner Code
+    - Easy Debugger
+
+But It can create lengthy code and slow performance.
+
 """
 
 # ====== Basic Exception ========
