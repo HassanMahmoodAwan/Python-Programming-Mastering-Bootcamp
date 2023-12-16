@@ -43,3 +43,33 @@ except ZeroDivisionError:
     print('Zero Division')
 else:
     print(b)
+
+# ====== Try-Except-Else-Finally =======
+try:
+    def func(a=10):
+        if a < 5:
+            b = a/(a-3)
+        print(b)
+    func(4)
+    func(3)
+except ZeroDivisionError:
+    print('Zero Division')
+else:
+    print(b)
+finally:
+    print('Always Excecuted')
+
+
+# ======= Manually Raise Error ======
+try: 
+    raise NameError("Hi there")
+except NameError:
+    print ("An exception")
+    
+
+# ======= Manually Raise Error, guess difference ======
+try: 
+    raise NameError("Hi there")
+except NameError:
+    print ("An exception")
+    raise
