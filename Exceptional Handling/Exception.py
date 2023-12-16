@@ -29,3 +29,17 @@ except ZeroDivisionError:
     print('Not divide by zero')
 except NameError:
     print('variable not exist')
+
+
+# ===== Try-Except-Else clause ======
+try:
+    def func(a=10):
+        if a < 5:
+            b = a/(a-3)
+        print(b)
+    func(4)
+    func(3)
+except ZeroDivisionError:
+    print('Zero Division')
+else:
+    print(b)
