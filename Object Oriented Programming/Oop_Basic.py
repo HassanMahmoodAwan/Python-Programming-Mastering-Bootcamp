@@ -14,6 +14,8 @@ Total 6 Concepts in terms of OOP
     Encapsulation
     Inheritance
     Data Abstraction
+    Method Overloading and Overiding
+    Hiding Data
 
 Note: Very important programming Concepts, give max time to work on it.
 
