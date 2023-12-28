@@ -92,6 +92,16 @@ def kwarg(**args):
 kwarg(first='Hassan', mid='Mahmood', last='Awan')
 
 
+def kwargs_arg(**paras):
+    for i in paras:
+        print(i)
+try:
+    kwargs_arg('Hassan', 'Mahmood', 'Awan')
+except KeyError:
+    print('**kwargs take a dict as argument')
+finally:
+    print('Hope you Understand')
+
 
 # === DocString Statement ===
 print(even_odd.__doc__)         # __doc__  , Not working return None.
