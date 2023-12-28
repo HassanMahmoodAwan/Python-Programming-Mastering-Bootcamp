@@ -1,4 +1,4 @@
-# Do-while Loop excecute at least one time.abs
+# Do-while Loop excecute at least one time.
 
 counter: int = 1
 roomNo: str = '221000'
