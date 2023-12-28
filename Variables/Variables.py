@@ -32,6 +32,7 @@ print(lifeGoal)
 
 # Printing with Some Message and using two Variables
 print(name + ' life Goal is: ' + lifeGoal)
+print(name , " life Goal is: ", lifeGoal)
 
 # Other way of printing same Line
 print('{} life Goal is: {}'.format(name, lifeGoal))
