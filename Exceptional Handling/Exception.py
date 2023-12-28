@@ -3,7 +3,7 @@
     1- Syntax ERROR
     2- Exception
 
-Exception occur when Internal even stop flow of program.
+Exception occur when Internal event stop flow of program.
 
 Why Exception Handling:
     - Improved program reliability
@@ -11,6 +11,9 @@ Why Exception Handling:
     - Easy Debugger
 
 But It can create lengthy code and slow performance.
+
+Note: - If Try Runs Successfully, Then else statment excecute.
+      - Finally runs every time.
 
 """
 
@@ -26,11 +29,11 @@ except TypeError:
 # ====== Multiple Exception =======
 try:
     def func(a):
-        if a < 4:
+        if a < 5:
             b = a/(a-3)
         print(b)
 
-    func(3)
+    func(4)
     func(5)
 except ZeroDivisionError:
     print('Not divide by zero')
@@ -42,8 +45,8 @@ except NameError:
 try:
     def func(a=10):
         if a < 5:
-            b = a/(a-3)
-        print(b)
+            f = a/(a-3)
+        print(f)
     func(4)
     func(3)
 except ZeroDivisionError:
