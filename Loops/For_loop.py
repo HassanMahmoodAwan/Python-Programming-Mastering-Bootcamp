@@ -7,7 +7,8 @@
 Types of loops in Python:
     1- For Loops
     2- While Loops
-    3- Nested Loops
+    3- Do while Loops           # Done using While Loop
+    4- Nested Loops
 
 - Else statement can be used with Loops, when condition fullfil.
 
