@@ -19,7 +19,16 @@ Learn About:
 # To display or Print we use
 print('Hello World!')
 
+# Sep in print statment
+print('Hassan', 'Mahmood', 'Awan', sep='-')
+
+# End in print statment
+print('HassanMahmudAwan', end='@')
+print('gmail.com', end='\n')
+
 # To take input from the User
 input('Enter something')
 
 # Congratulations! you write your first code.
+
+
