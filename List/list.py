@@ -55,12 +55,19 @@ def list_slicing(vegetable=None):
     print(vegetable[-10:-1])
     print(vegetable[:-1])
 
-    # ==== Practice Question ===== : wanted to prind  all ato.
+    # ==== Practice Question ===== : wanted to print  all ato.
     count = 0
     for element in vegetable:
         if element[-3:] == 'ato':
             count += 1
     print(count)
+    # other way         #Best Solution.
+    count = 0
+    for element in vegetable:
+        if 'ato' in element:
+            count +=1
+    print(count)
+
 
 
 def two_d_list(list_2d=None):
@@ -132,7 +139,7 @@ def list_comprehension():
 
 
 if __name__ == '__main__':
-    list_basic()
+    # list_basic()
     # list_slicing()
-    # list_advance_operations()
+    list_advance_operations()
     # list_comprehension()
