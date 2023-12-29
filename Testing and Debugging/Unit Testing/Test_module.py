@@ -1,5 +1,8 @@
 import unittest
-from module import square, doubler
+# from module import square, doubler
+from __init__ import square, doubler
+
+
 
 class TestModule(unittest.TestCase):
     def test_square(self):
@@ -7,6 +10,7 @@ class TestModule(unittest.TestCase):
 
     def test_doubler(self):
         self.assertEqual(doubler(3), 6)
+
 
 
 if __name__ == '__main__':
