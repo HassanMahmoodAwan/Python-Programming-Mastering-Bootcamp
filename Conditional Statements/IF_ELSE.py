@@ -49,3 +49,8 @@ else:
 
 # Displaying the Answer
 print(CGPA)
+
+
+# IF-ELSE Shortcut
+a = True
+print('Good to Go') if not(False) == True  else print('Wrong')20
