@@ -10,7 +10,7 @@ Note: we will discuss IF-ELSE here (Most popular).
 Note: Developing a Result Evaluation App in terms of CGPA.
 """
 
-eachSubjectMarks = 100
+EACH_SUBJECT_MARKS = 100
 mathMarks = int(input('Enter the Math Marks: '))
 programmingMarks = int(input('Enter the Programming Marks: '))
 web_developmentMarks = int(input('Enter the Web Development Marks: '))
@@ -52,5 +52,4 @@ print(CGPA)
 
 
 # IF-ELSE Shortcut
-a = True
-print('Good to Go') if not(False) == True  else print('Wrong')20
+print('Good to Go') if not(False) == True  else print('Wrong')

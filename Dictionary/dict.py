@@ -13,7 +13,7 @@ Dict:
     - It's related to HashTables in Hashing as it contains key:value pair.
     - JSON format for data Request/Response.
     - Its same like Object in Javascript.
-    - Widely Used Data Structure with Panadas
+    - Widely Used Data Structure with Pandas
 
 
 Note: Very useful Data Structure as help in storing data, transfering data through API
@@ -28,7 +28,7 @@ def dictionary():
 
     # ==== Normal Way ====
     section = {
-        "Name": "Hassan",
+        "Name"   : "Hassan",
         "Roll No": "Sp20-Bcs-114",
         "Section": "FA20-BCS-B",
         "Subject": "Artificial Intelligence"
