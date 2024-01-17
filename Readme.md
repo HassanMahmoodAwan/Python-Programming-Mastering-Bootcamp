@@ -75,7 +75,10 @@ To deactivate venv: <br />
 
 
 ### Unique Concepts:
-> Unicode and ord().
+- Unicode and ord().
+- Input Separated in two variables.
+- from typing import list.
+- list1 is list2  ? answer?
 
 
 ## Certifications in Python:
