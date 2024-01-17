@@ -4,7 +4,7 @@
 
 ## 500 days Coding Bootcamp technology Stack:
 01. Python
-02. Object Oriented Programing.
+02. Object Oriented Programming.
 03. Pandas, Numpy, Matplotlib and Seaborn.
 04. Data Processing & Analysis.
 05. Data Structures & Algorithms.
@@ -13,7 +13,7 @@
 08. REST API development.
 09. HTML, CSS, Boostrap and DOM manipulation using Javascript.
 10. Jquery & AJAX.
-11. Node JS and Aysnc Programing.
+11. Node JS and Async Programming.
 12. React JS. 
 13. React with Redux.
 14. Docker & Kubernetes for Containerization.
@@ -24,7 +24,7 @@
 19. Andrew Ng specialization in Machine Learning.
 20. Deep Learning with Keras and Tensorflow.
 21. Convolution Neural Network, also with transfer learning (ResNet 101).
-22. Specialization in Deeplearning from Deeplearning.AI.
+22. Specialization in Deplaning from Deeplearning.AI.
 23. Computer Vision and Image Processing.
 24. Natural Language Processing (NLP).
 25. Developing AI project with web Application.
@@ -32,14 +32,14 @@
 27. Learning TypeScript
 28. Mastering Next JS
 29. ===== Learning Cloud Technologies AWS =========
-30. AWS cloud Essiential certification
+30. AWS cloud Essential certification
 31. CI / CD
 32. 70+ Professional Projects using Full stack development and AI. 
 
 
 ### Python:
 - Python is a High Level Language which provided both Functional and Object Oriented Approach.
-- Used for Backend Development, Game Development, Desktop App, Machine Learning, Artificial Intelligence Programing, Data Scraping and Data Analysis .
+- Used for Backend Development, Game Development, Desktop App, Machine Learning, Artificial Intelligence Programming, Data Scraping and Data Analysis .
 - Its one of fastest growing language and popular due to Machine Learning and AI.
 
 
@@ -47,7 +47,7 @@
 1. Mastering Python
 2. Developing Problem Solving Skills
 3. Learning Build-in Data Structures
-4. Programing with Object oriented Approach
+4. Programming with Object oriented Approach
 5. Learning File Handling
 6. Developing lots of Projects
 6. Working with 2-D Arrays using Numpy
@@ -60,13 +60,13 @@
 > Need to install external Libraries for that <br />
 > - eg: pip install numpy
 
-Python Buildin important Libraries Include
+Python Builtin important Libraries Include
 - OS
 - time
 
 
 ### Python Virtual Envirnment
-For this Repo creating a Virtual Envirnment venv, as Its dependencies and Pacakages will be independent of global libraries. <br />
+For this Repo creating a Virtual Environment venv, as Its dependencies and Packages will be independent of global libraries. <br />
 >  - python -m venv venv_name <br />
 >  - venv_name/Scripts/activate <br />
 
@@ -74,6 +74,8 @@ To deactivate venv: <br />
 > - deactivate
 
 
+### Unique Concepts:
+> Unicode and ord().
 
 
 ## Certifications in Python:
