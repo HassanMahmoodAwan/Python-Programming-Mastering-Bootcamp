@@ -79,7 +79,9 @@ To deactivate venv: <br />
 - Input Separated in two variables.
 - from typing import list.
 - list1 is list2  ? answer?
-
+- function overloading -> muiltipledispatch
+- placement of default parameter
+- map(int, input().split(" "))
 
 ## Certifications in Python:
 
