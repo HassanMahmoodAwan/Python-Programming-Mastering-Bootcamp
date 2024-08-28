@@ -8,7 +8,6 @@
 03. Pandas, Numpy, Matplotlib and Seaborn.
 04. Data Processing & Analysis.
 05. Data Structures & Algorithms.
-06. Backend Development using Flask.
 07. Backend Development using FAST API.
 08. REST API development.
 09. HTML, CSS, Boostrap and DOM manipulation using Javascript.
